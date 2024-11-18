@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(360deg, #fd6f46 10%, #fb9832 360%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  height: 100vh;
+}
+h2 {
+  font-size: 2rem;
+}
+p {
+  font-size: 1.8rem;
+}
+.grids {
+  border: 2px solid white;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.square {
+  height: 20px;
+  width: 20px;
+}
+.snake {
+  background: rgb(28, 197, 28);
+  border-radius: 10px;
+}
+.snake-head {
+  background: rgb(0, 83, 0);
+  border-radius: 10px;
+}
+.apple {
+  background: rgb(199, 0, 0);
+  border-radius: 10px;
+}
